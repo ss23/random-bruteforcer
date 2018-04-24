@@ -4,13 +4,9 @@ Tool for bruteforcing the output of random()
 # Installing
 Modify the definitions within random.c (e.g. number of threads, LOOKAHEAD value), then compile:
 
-```
-clang -std=c11 -lpthread -lm -o random random.c
-`
-
-```
-gcc -std=c11 -lpthread -lm -o random random.c
-`
+`clang -std=c11 -lpthread -lm -o random random.c`
+or
+`gcc -std=c11 -lpthread -lm -o random random.c`
 
 GCC seems to give better performance
 
